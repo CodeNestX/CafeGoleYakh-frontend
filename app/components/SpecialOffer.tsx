@@ -19,10 +19,11 @@ export default function SpecialOffer({ onOrderSpecial }: SpecialOfferProps) {
   };
 
   const handleImageError = (e: SyntheticEvent<HTMLImageElement, Event>) => {
-    e.currentTarget.src = "/images/no-image.png";
+    e.currentTarget.src = "/images/no-image.webp";
   };
 
   return (
+
     <section
       id="special"
       className="py-[90px] bg-[linear-gradient(135deg,#dff6ff,#ffffff)]"
