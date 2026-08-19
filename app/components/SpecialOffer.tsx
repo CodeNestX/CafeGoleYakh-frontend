@@ -14,7 +14,7 @@ export default function SpecialOffer({ onOrderSpecial }: SpecialOfferProps) {
     category: "cake",
     price: "۱۸۵,۰۰۰ تومان",
     description: "ترکیبی از سه اسکوپ بستنی، خامه، میوه تازه، شکلات و کارامل.",
-    image: "/images/special.png",
+    image: "/images/special.webp",
     badge: "ویژه",
   };
 
